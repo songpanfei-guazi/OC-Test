@@ -106,6 +106,7 @@
 				7ACF6C0C22696C1C00744B1A /* Sources */,
 				7ACF6C0D22696C1C00744B1A /* Frameworks */,
 				7ACF6C0E22696C1C00744B1A /* Resources */,
+				B8BD7222B01306AE5E3DA14E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B8BD7222B01306AE5E3DA14E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCTest/Pods-OCTest-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTest/Pods-OCTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DF66F79F58938A907AB81E32 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
